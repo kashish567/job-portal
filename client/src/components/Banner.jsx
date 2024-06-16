@@ -26,14 +26,13 @@ const Banner = ({ query, handleInputChange }) => {
             <FiSearch className="absolute mt-2.5 ml-2 text-gray-400" />
           </div>
 
-          <div className="flex md:w-1/2 w-full md:rounded-s-md rounded shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 relative">
+          <div className="flex md:w-1/2 w-full md:rounded-s-none rounded shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 relative">
             <input
               type="text"
               name="location"
               id="location"
               placeholder="Location"
               className="block flex-1 border-0 bg-transparent py-1.5 pl-8 text-gray-800 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-7"
-              value={""}
             />
             <FiMapPin className="absolute mt-2.5 ml-2 text-gray-400" />
           </div>
