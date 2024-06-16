@@ -81,8 +81,13 @@ const Home = () => {
     <div>
       <Banner query={query} handleInputChange={handleInputChange} />
 
-      <div>
-        <Jobs result={result} />
+      {/* main */}
+      <div className="bg-[#FAFAFA] md:grid grid-cols-4 gap-8 lg:px-24 px-4">
+        <div>Left</div>
+        <div>
+          <Jobs result={result} />{" "}
+        </div>
+        <div>Right</div>
       </div>
     </div>
   );
