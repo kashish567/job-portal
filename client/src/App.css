@@ -142,5 +142,10 @@ li {
 }
 
 
+/* Button.css */
+.button {
+  /* Add your button styles here */
+  margin-right: 10px; /* Add spacing between buttons */
+}
 
 /* create a job page */
